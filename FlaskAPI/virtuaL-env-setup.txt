@@ -1,0 +1,38 @@
+## To create a new virtual environment using pip
+
+Follow the steps:
+1. Virtualenv is a tool to set up your Python environments.  
+You can install venv to your host Python by running this command in your terminal:
+#### pip install virtualenv ######
+
+2. To use venv in your project, in your terminal, create a new project folder, 
+cd to the project folder in your terminal, and run the following command:
+ ########  python<version> or py -m venv <virtual-environment-name>  #########
+ ### like so:
+	mkdir projectA
+ 	cd projectA
+ 	python3.8 -m venv <virtual-environment-name>
+
+3. Activate the Virtual Environment
+###############################
+ source env/bin/activate // Mac
+ env/Scripts/activate.bat //In CMD
+ env/Scripts/Activate.ps1 //In Powershel
+######################################
+4. Check if Virtual Environment Working.
+
+### pip list ######
+
+5.Install Libraries in a Virtual Environment
+6. After installing your required libraries, you can view all installed libraries by using pip list, or 
+you can generate a text file listing all your project dependencies by running the code below:
+
+#######  pip freeze > requirements.txt ########
+
+
+
+7. To install all dependencies use command (for others)
+### pip install -r requirements.txt ####
+
+8. Deactivate a Virtual Environment
+######## deactivate ########
