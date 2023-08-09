@@ -6,7 +6,12 @@
 * Built a client facing API using flask
 
 ## Resources
-https://github.com/arapfaik/scraping-glassdoor-selenium
+**Python Version:** 3.7  
+**Packages:** pandas, numpy, sklearn, matplotlib, seaborn, selenium, flask, json, pickle
+**Scraper Github:** https://github.com/arapfaik/scraping-glassdoor-selenium  
+**Scraper Article:** https://towardsdatascience.com/selenium-tutorial-scraping-glassdoor-com-in-10-minutes-3d0915c6d905  
+**Setting Virtual Env:** https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/
 
 ## Credits
-https://github.com/PlayingNumbers
+* https://github.com/PlayingNumbers
+* https://www.youtube.com/playlist?list=PL2zq7klxX5ASFejJj80ob9ZAnBHdz5O1t
